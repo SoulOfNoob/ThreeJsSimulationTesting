@@ -6,11 +6,11 @@ function addFloor() {
         roughness: 0.9,
         metalness: 0.0
     });
-    var floorTexture = new THREE.TextureLoader().load('src/images/grass.jpg');
-    floorTexture.repeat.set(8, 8);
-    floorTexture.wrapS = THREE.RepeatWrapping;
-    floorTexture.wrapT = THREE.RepeatWrapping;
-    floorMaterial.map = floorTexture;
+    // var floorTexture = new THREE.TextureLoader().load('src/images/grass.jpg');
+    // floorTexture.repeat.set(8, 8);
+    // floorTexture.wrapS = THREE.RepeatWrapping;
+    // floorTexture.wrapT = THREE.RepeatWrapping;
+    // floorMaterial.map = floorTexture;
     var floor = new THREE.Mesh(floorGeometry, floorMaterial);
     floor.rotation.x = -90 * DEG_TO_RAD;
     floor.receiveShadow = true;
