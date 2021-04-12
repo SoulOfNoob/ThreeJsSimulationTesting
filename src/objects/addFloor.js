@@ -2,7 +2,7 @@ function addFloor() {
 
     var floorGeometry = new THREE.PlaneGeometry(400,400);
     var floorMaterial = new THREE.MeshStandardMaterial({
-        color: 0xFFFFFF,
+        color: 0xFFFF00,
         roughness: 0.9,
         metalness: 0.0
     });
